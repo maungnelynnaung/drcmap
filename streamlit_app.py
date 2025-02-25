@@ -152,7 +152,6 @@ layers_added = False
 # Text before the Checkboxes
 # --------------------------
 
-st.write("-----------------------------------------------------------")
 st.markdown("<b>Layers</b>", unsafe_allow_html=True)
 st.write("Select the layers you want to display on the map. Since the data is loaded from CSV files, it may take a few seconds for the layers to fully load and appear correctly.")
 
@@ -203,4 +202,4 @@ if layers_added or admin2_geojson:
 # --------------------------
 # Render the Map in Streamlit
 # --------------------------
-st_folium(folium_map, width="100%", height=500)
+st_folium(folium_map, width="100%", height=400)
