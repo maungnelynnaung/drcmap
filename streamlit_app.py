@@ -55,16 +55,6 @@ except Exception as e:
 # Title and Dropdowns in Columns
 # --------------------------
 
-"""st.markdown(
-    "<div style='display: flex; justify-content: center;'>"
-    "<img src='https://nelynnaung.com/wp-content/uploads/2025/02/logo-png.avif' style='width:150px;'>"
-    "</div>",
-    unsafe_allow_html=True,
-)
-
-st.write("-------------------------------------")
-"""
-
 st.markdown(
         "<div style='display: flex; justify-content: center;'>" 
         "<h2>DRC Congo Positioning</h2>"
